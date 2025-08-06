@@ -3,6 +3,9 @@
 
 ### A 2022 Data Analysis by Insurance and Socioeconomic Status
 
+🌐 Interactive Map
+👉 [Click here to explore the interactive Leaflet map](https://lanedelcu.github.io/breastCancer-vs-insurance/)  
+*This map visualizes breast cancer incidence across U.S. states in 2022.*
 ---
 
 ##  Background & Motivation
