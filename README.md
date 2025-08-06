@@ -1,11 +1,9 @@
 
 # 📊 Does Insurance Status Impact Breast Cancer Incidence?
 
-### A 2022 Data Analysis by Insurance and Socioeconomic Status
+### A 2022 Data Analysis by Insurance and Socioeconomic Status - using R language
 
-🌐 Interactive Map
-👉 [Click here to explore the interactive Leaflet map](https://lanedelcu.github.io/breastCancer-vs-insurance/)  
-*This map visualizes breast cancer incidence across U.S. states in 2022.*
+
 ---
 
 ##  Background & Motivation
@@ -16,7 +14,11 @@ This project began with a critical public health question:
 
 > **Do uninsured women across U.S. states face greater barriers to early cancer detection?**
 
-Although insurance doesn’t prevent cancer, it can facilitate earlier diagnosis and timely treatment—key elements in reducing mortality.
+Although insurance doesn’t prevent cancer, it can facilitate earlier diagnosis and timely treatment—key elements in reducing mortality.  
+
+🌐 Interactive Map  
+👉 [Click here to explore the interactive Leaflet map](https://lanedelcu.github.io/breastCancer-vs-insurance/)  
+*This map visualizes breast cancer incidence across U.S. states in 2022.* (Click on states for results)
 
 ---
 
@@ -151,27 +153,13 @@ These layers will help target cancer prevention and early detection strategies i
 
 ## 📁 Repository Contents
 
-```markdown
-📂 data/
-├── breast_cancer_2022.csv
-├── health_insurance_2022.xlsx
-├── USCS-1999-2022-ASCII/ByArea.txt
-├── shape/cb_2018_us_state_500k.shp
 
-📂 scripts/
-├── analysis_script.R
-├── scatter_plots.R
-├── geospatial_map.R
-
-📂 output/
-├── index.html (Interactive Map)
-├── plots/
-│   ├── insured_scatter.png
-│   ├── uninsured_scatter.png
-│   ├── pie_chart.png
-│   └── boxplot_race.png
-
-README.md ← (this file)
+```bash
+├── 📂data/                 # All datasets (CSV, Excel, Shapefile)
+├── 📂scripts/              # R scripts 
+├── 📂output/               # Visualizations, 
+├── index.html            # Leaflet interactive map (GitHub Pages)
+├── README.md             # this file
 ```
 
 ---
